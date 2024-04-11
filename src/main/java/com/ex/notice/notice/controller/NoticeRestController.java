@@ -120,7 +120,7 @@ public class NoticeRestController {
         String client_file_nameExtension = FilenameUtils.getExtension(client_file_name).toLowerCase();
         File destinationFile; //DB에 저장할 파일 고유명
         String destinationFileName; //절대경로 설정
-        String file_path = "/Users/jaeho/Desktop/study/Jeans/files";
+        String file_path = "/Users/jaeho/Desktop/study/java/notice/src/main/resources/static/files";
 
         do { //우선 실행 후
             //고유명 생성
